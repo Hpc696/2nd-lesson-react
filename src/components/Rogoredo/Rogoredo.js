@@ -1,7 +1,7 @@
 import TitoloRogoredo from './TitoloRogoredo'
 import ImmagineRogoredo from './ImmagineRogoredo'
 import DescrizioneRogoredo from './DescrizioneRogoredo'
-import InteressaRogoredo from './InteressaRogoredo'
+import Interessa from '../Interessa'
 
 export default function Rogoredo(){
     return(
@@ -9,7 +9,7 @@ export default function Rogoredo(){
         <TitoloRogoredo/>
         <ImmagineRogoredo/>
         <DescrizioneRogoredo/>
-        <InteressaRogoredo/>
+        <Interessa/>
         </>
     )
 }

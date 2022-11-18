@@ -1,7 +1,7 @@
 import TitoloGubbio from './TitoloGubbio'
 import ImmagineGubbio from './ImmagineGubbio'
 import DescrizioneGubbio from './DescrizioneGubbio'
-import InteressaGubbio from './InteressaGubbio'
+import Interessa from '../Interessa'
 
 export default function Gubbio(){
     return ( 
@@ -9,7 +9,7 @@ export default function Gubbio(){
     <TitoloGubbio/>
     <ImmagineGubbio/>
     <DescrizioneGubbio/>
-    <InteressaGubbio/>
+    <Interessa/>
     </>
     )
 }

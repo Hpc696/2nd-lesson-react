@@ -1,7 +1,7 @@
 import TitoloLampedusa from './TitoloLampedusa'
 import ImmagineLampedusa from './ImmagineLampedusa'
 import DescrizioneLampedusa from './DescrizioneLampedusa'
-import InteressaLampedusa from './InteressaLampedusa'
+import Interessa from '../Interessa'
 
 export default function Lampedusa(){
     return (
@@ -9,7 +9,7 @@ export default function Lampedusa(){
         <TitoloLampedusa/>
         <ImmagineLampedusa/>
         <DescrizioneLampedusa/>
-        <InteressaLampedusa/>
+        <Interessa/>
         </>
     )
 }

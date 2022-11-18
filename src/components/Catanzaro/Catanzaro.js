@@ -1,7 +1,7 @@
 import TitoloCatanzaro from './TitoloCatanzaro'
 import ImmagineCatanzaro from './ImmagineCatanzaro'
 import DescrizioneCatanzaro from './DescrizioneCatanzaro'
-import InteressaCatanzaro from './InteressaCatanzaro'
+import Interessa from '../Interessa'
 
 export default function Catanzaro(){
     return (
@@ -9,7 +9,7 @@ export default function Catanzaro(){
         <TitoloCatanzaro/>
         <ImmagineCatanzaro/>
         <DescrizioneCatanzaro/>
-        <InteressaCatanzaro/>
+        <Interessa/>
         </>
     )
 }
