@@ -6,13 +6,12 @@ import '../assets/styles.css'
 
 function App() {
   return (
-    <div><h1 className='servizi'>
-      I NOSTRI VIAGGI
-      </h1>
-    <Gubbio />
-    <Catanzaro />
-    <Lampedusa />
-    <Rogoredo />
+    <div>
+      <h1 className='servizi'>I NOSTRI VIAGGI</h1>
+      <Gubbio />
+      <Catanzaro />
+      <Lampedusa />
+      <Rogoredo />
     </div>
   );
 }
