@@ -5,11 +5,11 @@ import Interessa from '../Interessa'
 
 export default function Rogoredo(){
     return(
-        <>
+        <div className='rogoredo'>
         <TitoloRogoredo/>
         <ImmagineRogoredo/>
         <DescrizioneRogoredo/>
         <Interessa/>
-        </>
+        </div>
     )
 }

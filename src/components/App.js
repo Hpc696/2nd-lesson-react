@@ -2,17 +2,18 @@ import Gubbio from './Gubbio/Gubbio'
 import Catanzaro from './Catanzaro/Catanzaro'
 import Lampedusa from './Lampedusa/Lampedusa'
 import Rogoredo from './Rogoredo/Rogoredo'
+import '../assets/styles.css'
 
 function App() {
   return (
-    <><h1>
-      I nostri viaggi
+    <div><h1 className='servizi'>
+      I NOSTRI VIAGGI
       </h1>
     <Gubbio />
     <Catanzaro />
     <Lampedusa />
     <Rogoredo />
-    </>
+    </div>
   );
 }
 
