@@ -1,3 +1,3 @@
 export default function Interessa(){
-    return <button>Mi interessa</button>
+    return <button className="bottone">Mi interessa</button>
 }

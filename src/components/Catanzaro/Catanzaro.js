@@ -5,11 +5,12 @@ import Interessa from '../Interessa'
 
 export default function Catanzaro(){
     return (
-        <div className='catanzaro'>
+        <div className='citta'>
         <TitoloCatanzaro/>
         <ImmagineCatanzaro/>
         <DescrizioneCatanzaro/>
         <Interessa/>
+        <hr className='separa'/>
         </div>
     )
 }

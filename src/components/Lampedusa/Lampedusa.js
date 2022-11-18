@@ -5,11 +5,12 @@ import Interessa from '../Interessa'
 
 export default function Lampedusa(){
     return (
-        <div className='lampedusa'>
+        <div className='citta'>
         <TitoloLampedusa/>
         <ImmagineLampedusa/>
         <DescrizioneLampedusa/>
         <Interessa/>
+        <hr className='separa'/>
         </div>
     )
 }
