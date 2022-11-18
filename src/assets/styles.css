@@ -8,8 +8,8 @@
 }
 
 .immagine{
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
 }
 
 .separa{
@@ -17,6 +17,7 @@
 }
 
 .bottone{
+    height: 30px;
     cursor: pointer;
     border-color: rgb(72, 0, 139);
     border-radius: 20px;

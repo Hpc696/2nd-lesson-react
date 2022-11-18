@@ -10,7 +10,9 @@ body {
   vertical-align: middle;
   background-color: rgba(132, 0, 255, 0.01);
   border-style: dotted;
+  border: solid 5px;
   border-radius: 50px;
+  border-color: black;
 }
 
 code {
