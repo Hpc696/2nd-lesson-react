@@ -5,6 +5,7 @@ import Rogoredo from './Rogoredo/Rogoredo'
 import '../assets/styles.css'
 
 function App() {
+  console.log('Saluti da Gubbio');
   return (
     <div>
       <h1 className='servizi'>I NOSTRI VIAGGI</h1>
