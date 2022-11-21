@@ -1,3 +1,3 @@
-export default function Buy(){
-    return <button className="add">Aggiungi all'ordine</button>
+export default function Buy(props){
+    return <button className="add" onClick={props.quant}>Add to order</button>
 }
