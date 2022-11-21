@@ -1,22 +1,22 @@
-.servizi{
+.products{
     text-align: center;
     color: blueviolet;
 }
 
-.citta{
+.cards{
     text-align: center;
 }
 
-.immagine{
+.images{
     height: 400px;
     width: 500px;
 }
 
-.separa{
-    margin: 30px;
+.separation{
+    margin: 25px;
 }
 
-.bottone{
+.add{
     height: 30px;
     cursor: pointer;
     border-color: rgb(72, 0, 139);
