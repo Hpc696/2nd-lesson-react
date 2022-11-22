@@ -1,7 +1,7 @@
-import HotDog from './HotDog'
-import DoubleCBurger from './DoubleCBurger'
-import Chips from './Chips'
-import CheeseBurger from './CheeseBurger'
+import HotDog from './products/HotDog'
+import DoubleCBurger from './products/DoubleCBurger'
+import Chips from './products/Chips'
+import CheeseBurger from './products/CheeseBurger'
 import '../assets/styles.css'
 
 function App() {

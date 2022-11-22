@@ -1,8 +1,8 @@
-import Title from './Title'
-import Image from './Image'
-import Description from './Description'
-import Buy from './Buy'
-import Qta from './Qta'
+import Title from '../functionality/Title'
+import Image from '../functionality/Image'
+import Description from '../functionality/Description'
+import Buy from '../functionality/Buy'
+import Qta from '../functionality/Qta'
 import { useState } from 'react'
 
 export default function Cheese(){
