@@ -1,7 +1,7 @@
-import HotDog from './Hot_Dog/HotDog'
-import DoubleCheese from './Double_Cheeseburger/DoubleCheese'
-import Chips from './Patatine_Fritte/Chips'
-import Cheese from './Cheeseburger/Cheese'
+import HotDog from './HotDog'
+import DoubleCBurger from './DoubleCBurger'
+import Chips from './Chips'
+import CheeseBurger from './CheeseBurger'
 import '../assets/styles.css'
 
 function App() {
@@ -9,10 +9,10 @@ function App() {
   return (
     <div>
       <h1 className='products'>OUR PRODUCTS</h1>
-      <Cheese />
-      <DoubleCheese />
-      <HotDog />
-      <Chips />
+      <CheeseBurger/>
+      <DoubleCBurger/>
+      <HotDog/>
+      <Chips/>
     </div>
   );
 }

@@ -8,8 +8,9 @@
 }
 
 .images{
-    height: 400px;
-    width: 500px;
+    height: 250px;
+    width: 300px;
+    border-radius: 90px;
 }
 
 .separation{
@@ -21,4 +22,10 @@
     cursor: pointer;
     border-color: rgb(72, 0, 139);
     border-radius: 20px;
+    color: rgb(72, 0, 139);
+    font-weight: bold;
+}
+
+.cart{
+    margin: 20px;
 }

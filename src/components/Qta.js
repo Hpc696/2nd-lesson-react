@@ -1,6 +1,7 @@
+
 export default function Qta(props){
 
     return(
-        <div>I want {props.howmuch}</div>
+        <div className="cart"><strong>I want {props.howmuch} {props.title}</strong></div>
     )
 }
