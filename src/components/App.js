@@ -3,6 +3,7 @@ import DoubleCBurger from './products/DoubleCBurger'
 import Chips from './products/Chips'
 import CheeseBurger from './products/CheeseBurger'
 import '../assets/styles.css'
+import Cart from './Cart'
 
 function App() {
   console.log('App is running...');
@@ -13,6 +14,7 @@ function App() {
       <DoubleCBurger/>
       <HotDog/>
       <Chips/>
+      
     </div>
   );
 }
