@@ -4,12 +4,14 @@ import Chips from './products/Chips'
 import CheeseBurger from './products/CheeseBurger'
 import '../assets/styles.css'
 import Cart from './Cart'
+import Search from './Search'
 
 function App() {
   console.log('App is running...');
   return (
     <div>
       <h1 className='products'>OUR PRODUCTS</h1>
+      <Search />
       <CheeseBurger/>
       <DoubleCBurger/>
       <HotDog/>

@@ -1,9 +1,11 @@
 .products{
     text-align: center;
-    color: blueviolet;
+    color: white;
+    text-shadow: 0 0 15px black;
 }
 
 .cards{
+    color: white;
     text-align: center;
 }
 
@@ -28,4 +30,19 @@
 
 .cart{
     margin: 20px;
+}
+
+.searchbar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingred{
+    height: 30px;
+    cursor: pointer;
+    border-color: rgb(72, 0, 139);
+    border-radius: 20px;
+    color: rgb(72, 0, 139);
+    font-weight: bold;
 }

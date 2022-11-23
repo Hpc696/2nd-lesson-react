@@ -21,14 +21,17 @@ export default function Cheese(){
         setShow(!show)
         console.log('click mostra/nascondi')
     }
+    //costanti usate x bottone mostra/nascondi ingredienti
+    const mostra = <><Ingredients sho={showingr} content='HIDE INGREDIENTS' /><ShowIngredients ingred='Bread, Beef, Cheddar, Ketchup, Mayo, Onions, Pickle slices' /></>
+    const nascondi = <Ingredients sho={showingr} content='SHOW INGREDIENTS'/>
+
     return(
         <div className='cards'>
         <Title title='Cheeseburger'/>
         <Image url='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cheeseburger.jpg/1200px-Cheeseburger.jpg' alt='cheeseburger'/>
         <Description about='Description of our cheeseburger'/>
         <Price money={3.5}/>
-        <Ingredients show={showingr}/>
-        {show ? <ShowIngredients ingred='Bread, Beef, Cheddar, Ketchup, Mayo, Onions, Pickle slices'/> : null}
+        {show ? mostra : nascondi}
         <Buy quant={add}/>
         <Qta howmuch={quantity} title='cheeseburger'/>
         <hr className='separation'/>
