@@ -3,7 +3,6 @@ import DoubleCBurger from './products/DoubleCBurger'
 import Chips from './products/Chips'
 import CheeseBurger from './products/CheeseBurger'
 import '../assets/styles.css'
-import Cart from './Cart'
 import Search from './Search'
 
 function App() {
